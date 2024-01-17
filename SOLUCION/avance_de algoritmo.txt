@@ -1,0 +1,32 @@
+1...Algoritmo postulante
+2		Definir nombre Como Caracter
+3		Definir puntaje Como Entero
+4		Definir abanderado Como Logico
+5		Definir bachilleratoAfines Como Logico
+6		Definir porcentajeCapacidadEspecial Como Entero
+7		Definir puntajeTotal Como Entero
+8		
+9		Escribir "Ingrese el nombre del postulante:"
+10		Leer nombre
+11		Escribir "Ingrese el puntaje del postulante:"
+12		Leer puntaje
+13		Escribir "¿Es el postulante abanderado? (s/n)"
+14		Leer abanderado
+15		Escribir "¿El postulante tiene bachillerato afines? (s/n)"
+16		Leer bachilleratoAfines
+17		Escribir "Ingrese el porcentaje de capacidad especial del postulante:"
+18		Leer porcentajeCapacidadEspecial
+19		
+20		puntajeTotal <- puntaje
+21		Si abanderado Entonces
+22			puntajeTotal <- puntajeTotal + 5
+23		FinSi
+24		Si bachilleratoAfines Entonces
+25			puntajeTotal <- puntajeTotal + 2
+26		FinSi
+27		Si porcentajeCapacidadEspecial <= 35 Entonces
+28			puntajeTotal <- puntajeTotal + 1
+29		FinSi
+30		
+31		Escribir "El puntaje total del postulante es: ", puntajeTotal
+32...FinAlgoritmo
